@@ -44,7 +44,7 @@ poetry install
 PyCamelot uses pytest for testing. Run tests with the following command:
 
 ```shell
-poetry run pytest
+poetry run test
 ```
 
 ## License
