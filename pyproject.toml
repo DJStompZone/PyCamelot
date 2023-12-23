@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pycamelot"
+version = "0.1.3"
+description = "PyCamelot is a Python library designed for DJs and music enthusiasts to assist with harmonic mixing. It provides a simple interface to work with musical keys and find compatible matches for seamless transitions between tracks. The library utilizes the Camelot wheel, a popular system that translates musical keys into an easy-to-understand format that simplifies the process of mixing tracks harmonically."
+authors = ["DJ Stomp <dj@deepai.org>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[tool.poetry.scripts]
+test = "run_tests:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
